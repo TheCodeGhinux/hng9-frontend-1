@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import './footer.css'
+import img from '../../assets/Zuri.Internship_Logo.png'
+import img2 from '../../assets/I4G.png'
 
 const footer = () => {
   return (
     <div id='footer'>
-      
+      <div className="footer-con">
+        <div className="zuri-img">
+          <img src={img} alt="" />
+        </div>
+        <div className="footer-text">
+          <p>HNG Internship 9 Frontend Task</p>
+        </div>
+        <div className="i4g-img">
+          <img src={img2} alt="" />
+        </div>
+
+      </div>
     </div>
   )
 }
