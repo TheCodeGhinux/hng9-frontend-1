@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 #main {
-    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
@@ -8,7 +12,7 @@
 .profile__con {
     display: flex;
     justify-content: center;
-    height: 142px;
+    height: 13rem;
 }
 
 .profile {
@@ -17,6 +21,7 @@
     align-items: center;
     gap: 24px;
     width: 35.5rem;
+    margin-top: 4rem;
 }
 
 #profile__img {
@@ -36,7 +41,7 @@
     visibility: hidden;
 }
 
-.share__con {
+.modal__btn {
     width: 40px;
     height: 40px;
     background: #FFFFFF;
@@ -45,9 +50,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
-.share__con:hover, .share__con:focus {
+.modal__btn:hover, .modal__btn:focus {
     background: #F9FAFB;
 }
 
@@ -106,3 +112,15 @@
 .link__tab > p:hover {
     color: #e7332b;
 }
+
+
+.share__btn {
+    background: transparent;
+}
+
+
+
+
+
+
+

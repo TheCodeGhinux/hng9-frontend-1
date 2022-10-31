@@ -1,10 +1,11 @@
 import React from 'react'
-import './SocialLinks.css'
 
-const links = () => {
+const SocialLinks = () => {
   return (
-    <div>Socials</div>
+    <div >
+      
+    </div>
   )
 }
 
-export default links
+export default SocialLinks
