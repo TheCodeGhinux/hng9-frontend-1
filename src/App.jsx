@@ -1,11 +1,13 @@
 import React from 'react'
-import About from './components/profile/profile'
-import Footer from './components/footer/footer'
+import Main from './components/profile/Profile'
+import Social from './components/social-links/SocialLinks'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
     <>
-        <About />
+        <Main />
+        <Social />
         <Footer />
     </>
   )

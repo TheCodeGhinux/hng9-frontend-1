@@ -3,7 +3,7 @@ import './footer.css'
 import img from '../../assets/Zuri.Internship_Logo.png'
 import img2 from '../../assets/I4G.png'
 
-const footer = () => {
+const Footer = () => {
   return (
     <div id='footer'>
       <div className="footer-con">
@@ -22,4 +22,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

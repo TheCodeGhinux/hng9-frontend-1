@@ -1,0 +1,108 @@
+#main {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.profile__con {
+    display: flex;
+    justify-content: center;
+    height: 142px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 35.5rem;
+}
+
+#profile__img {
+    height: 88px;
+    width: 88px;
+}
+
+#twitter {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+#slack {
+    display: block;
+    visibility: hidden;
+}
+
+.share__con {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share__con:hover, .share__con:focus {
+    background: #F9FAFB;
+}
+
+.links__section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link__tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 72%;
+    height: 76px;
+
+    /* Shadow/xs */
+
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+
+    width: 1152px;
+    height: 76px;
+
+    /* Gray/200 */
+
+    background: #EAECF0;
+    /* Gray/200 */
+
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+
+}
+
+.link__tab > p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.link__tab > p:hover {
+    color: #e7332b;
+}

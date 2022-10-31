@@ -1,7 +1,21 @@
 
+#footer{
+    padding: 48px 0px;
+    gap: 64px;
+    /* position: absolute; */
+    width: 100vw;
+    height: 160px;
+    
+}
+
 .footer-con {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 5rem;
+    gap: 32px;
+    width: 100vw;
+    height: 64px;
 }
 
 .zuri-img {
