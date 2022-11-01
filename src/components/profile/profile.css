@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    width: 35.5rem;
+    width: 40%;
     margin-top: 4rem;
 }
 
@@ -89,7 +89,7 @@
     padding: 24px 32px;
     gap: 8px;
 
-    width: 1152px;
+    width: 70%;
     height: 76px;
 
     /* Gray/200 */
@@ -121,6 +121,28 @@
 
 
 
+@media screen and (max-width: 600px) {
+    
+    .profile {
+        width: 90%;
+    }
 
+    .modal__btn {
+        display: block;
+        visibility: hidden;
+    }
 
+    .modal__btn {
+        position: absolute;
+        right: 1rem;
+    }
 
+    
+    .link__tab {
+        width: 81%;
+    }
+
+    .link__tab > p {
+        font-size: 14px;
+    }
+}

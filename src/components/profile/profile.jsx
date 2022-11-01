@@ -6,7 +6,7 @@ import img from '../../assets/profile__img.png'
 // import img from '../../assets/'
 
 const Profile = () => {
-  const [openModal, setOpenModal] = useState(true)
+  const [openModal, setOpenModal] = useState(false)
   return (
     <div id='main'>
       <div className="profile__con">
