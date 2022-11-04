@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Main from './components/profile/Profile'
-import Social from './components/social-links/SocialLinks'
 import Contact from './components/contact/Contact'
 // import Footer from './components/footer/Footer'
 import Layout from './components/Layout';

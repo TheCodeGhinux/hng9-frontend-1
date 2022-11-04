@@ -3,8 +3,8 @@ import './contact.css'
 
 const Contact = () => {
   return (
-    <div className='container-2xl h-screen flex  justify-center w-screen'>
-        <div class="pt-16 md:py-36  h-screen flex flex-col bg-white-500 text-center md:w-[720px] w-[343px] ">
+    <div className='container-2xl flex  justify-center w-screen'>
+        <div class="py-16 md:py-36 flex flex-col bg-white-500 text-center md:w-[720px] w-[343px] ">
 
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-start text-gray-900 dark">Contact Me</h2>
 
@@ -38,10 +38,6 @@ const Contact = () => {
             <button type="submit" class=" w-full  text-white" id='btn__submit'>
                 Send message
             </button>
-            </div>
-            <div class="flex mt-8 m-auto w-full ">
-            </div>
-            <div class="flex flex-col content-start items-start pt-24 lg:py-16">
             </div>
         </div>
         {/* <div className="pt-24 lg:py-16 mx-auto max-w-[720px] flex flex-col content-start items-start">
