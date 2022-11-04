@@ -1,15 +1,23 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Main from './components/profile/Profile'
 import Social from './components/social-links/SocialLinks'
-import Footer from './components/footer/Footer'
+import Contact from './components/contact/Contact'
+// import Footer from './components/footer/Footer'
+import Layout from './components/Layout';
 
 const App = () => {
   return (
-    <>
-        <Main />
-        <Social />
-        <Footer />
-    </>
+    // <Main />
+    //     <Social />
+        <Router>
+          <Layout>
+            <Routes>
+              <Route exact path='/'  element={<Main />} />
+              <Route path='/contact' element={<Contact/>} />
+            </Routes>
+          </Layout>
+        </Router> 
   )
 }
 

@@ -9,10 +9,6 @@ import {
     TwitterIcon,
     WhatsappShareButton,
     WhatsappIcon,
-    FacebookMessengerShareButton,
-    FacebookMessengerIcon,
-    EmailShareButton,
-    EmailIcon,
   } from "react-share";
 
 
